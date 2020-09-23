@@ -1,0 +1,36 @@
+﻿body {
+    background-color: lightblue;
+    color: darkblue;
+}
+
+.topP {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    right: 2%;
+    width: 96%;
+    height: 30%;
+    background-color: whitesmoke;
+}
+
+.leftP {
+    position: absolute;
+    top: 34%;
+    left: 2%;
+    width: 20%;
+    height: 77%;
+    background-color: whitesmoke;
+}
+
+.centerP {
+    position: absolute;
+    top: 34%;
+    left: 24%;
+    width: 78%;
+    height: 77%;
+}
+
+h1 {
+    text-align: center;
+    background-color: whitesmoke;
+}

@@ -1,0 +1,110 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="WebApplication35.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="topP">
+             <table class="auto-style1">
+                <tr>
+                    <td>
+                        <asp:Image ID="Image1" runat="server" Height="142px" ImageUrl="~/Images/logo.png" Width="206px" />
+                    </td>
+                    <td colspan="5"><h1>UNIVERSITY MANAGEMENT SYSTEM</h1></td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Home.aspx">Home</asp:HyperLink>
+                    </td>
+                    <td>
+                        <asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="~/AboutUs.aspx">AboutUs</asp:HyperLink>
+                    </td>
+                    <td>
+                        <asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="~/ContactUs.aspx">ContactUs</asp:HyperLink>
+                    </td>
+                    <td>
+                        <asp:HyperLink ID="HyperLink11" runat="server" NavigateUrl="~/Departments.aspx">Departments</asp:HyperLink>
+                    </td>
+                    <td>
+                        <asp:HyperLink ID="HyperLink15" runat="server" NavigateUrl="~/SignIn.aspx">SignIn</asp:HyperLink>
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+        </div>
+        <div class="leftP">
+            <table class="auto-style1">
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:HyperLink ID="HyperLink5" runat="server">Admission</asp:HyperLink>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:HyperLink ID="HyperLink12" runat="server">Fees</asp:HyperLink>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:HyperLink ID="HyperLink13" runat="server">Student</asp:HyperLink>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:HyperLink ID="HyperLink14" runat="server">Teacher</asp:HyperLink>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="centerP">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <asp:Image ID="Image2" runat="server" Height="601px" ImageUrl="~/Images/CollegePic.jpg" Width="964px" />
+                
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
